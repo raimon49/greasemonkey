@@ -2,10 +2,8 @@
 // @name           UrlCleaner
 // @description    URL から不要なパラメーターを削除し、リダイレクトします。
 // @namespace      http://github.com/ussy/
-// @include        http://*?*
-// @include        http://*#*
-// @include        https://*?*
-// @include        https://*#*
+// @include        http*://*
+// @include        https*://*
 // @require        https://gist.githubusercontent.com/azu/434406/raw/3cd10875724c2d0fd4c3567a18c6087cc7161f8a/wedata.js
 // @author         Ussy
 // @grant          GM_registerMenuCommand
